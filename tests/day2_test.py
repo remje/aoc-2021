@@ -17,7 +17,7 @@ def test_final_position_and_depth():
     input_string = "\n".join((str(value) for value in input_values))
     position, depth = final_position_and_depth(StringIO(input_string))
     assert position == 15
-    assert depth == 10
+    assert depth == 60
 
 
 def test_invalid_data():
