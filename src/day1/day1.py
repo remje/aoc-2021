@@ -7,9 +7,11 @@ def part_1(input: Path):
     with open(file=input, mode='r') as f:
         return nb_of_increases(f)
 
+
 def part_2(input: Path):
     with open(file=input, mode='r') as f:
         return nb_of_window_increases(f)
+
 
 def nb_of_increases(data: TextIO):
     nb_of_increases: int = 0
@@ -40,4 +42,3 @@ if __name__ == "__main__":
     path = Path('./src/day1/input.txt')
     print(part_1(path))
     print(part_2(path))
-
