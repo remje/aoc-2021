@@ -2,8 +2,6 @@ from pathlib import Path
 from re import search
 from typing import TextIO
 
-MAX_INT_VALUE = 232
-
 
 def final_position_and_depth(data: TextIO):
     position: int = 0

@@ -1,6 +1,6 @@
 from pathlib import Path
 from typing import TextIO
-MAX_INT_VALUE = 232
+MAX_INT_VALUE = 2 ** 32
 
 
 def part_1(input: Path):
